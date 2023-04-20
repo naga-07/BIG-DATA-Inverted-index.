@@ -6,6 +6,8 @@ Map Function:
 
 Input: a document D
 For each word w in D, emit (w, D) as the key-value pair
+
+
 Reduce Function:
 
 Input: a word w and a list of documents [D1, D2, ..., Dn] that contain it
